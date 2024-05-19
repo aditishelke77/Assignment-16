@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property</title>
+    <style>
+        body{
+            padding:1px;
+            margin:2px;
+        }
+        .btn{
+            color:#00cc74;
+            background-color:#d0ccff;
+            margin:20px;
+            padding:10px;
+            border:none;
+            border:1px solid #8bcc00;
+            border-radius:20px;
+            width:1100px;
+           text-align:center;
+           font-size:large;
+           position: sticky;
+           top:20px;
+           left:10px;
+           right:30px;
+
+        }
+        .btn1{
+            background-color: #ccf5ff;
+            color:#000dff;
+            border:none;
+            border:1px solid #ff4800;
+            padding:4px 30px;
+            border-radius: 30px;
+            margin:10px;
+            position: fixed;
+            bottom:10px;
+            right:30px;
+        
+        }
+        .Jewellery_info{
+            font-size: 40px;
+            height:500px;
+            width:1000px;
+            position:relative;
+            left:200px;
+            text-align:right;
+            
+
+        }
+        .box{
+            border:1px solid peru;
+            height:1000px ;
+            width:200%;
+            position:relative;
+        }
+        .button{
+            background-color: rgb(255, 0, 187);
+            position:absolute;
+            top:-20px;
+            left:0px;
+            padding:10px;
+            border-radius: 50px 0 50px 0;
+
+        }
+    
+    </style>
+</head>
+<body>
+    
+        <input type="text" placeholder="Search for Jewellery items product" class="btn"/>
+        <div class="box">
+            <button class="button">Jewellery</button>
+        <p class="Jewellery_info">
+            Jewellery consists of decorative items worn for personal adornment, such as brooches, rings, necklaces, earrings, pendants, bracelets, and cufflinks. Jewellery may be attached to the body or the clothes. From a western perspective, the term is restricted to durable ornaments, excluding flowers
+        </p>
+    </div>
+   
+        <button class="btn1">Submit</button>
+</body>
+</html>
